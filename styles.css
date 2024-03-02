@@ -7,21 +7,13 @@ body {
   height: 100vh;
 }
 
-header,
-first,
-second,
-third,
-fourth,
-fifth,
-footer {
-  display: flex;
-}
+/* Header */
 
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px 120px;
+  align-items: baseline;
+  padding: 20px 180px;
   background-color: #1F2937;
   color: white;
 }
@@ -46,9 +38,45 @@ footer {
   color: #E5E7EB;
 }
 
+/* First Row */
+
 .first {
+  display: flex;
   background-color: #1F2937;
+  gap: 60px;
   color: white;
+  padding: 120px 180px;
+}
+
+.hero h1 {
+  flex: 1 1 600px;
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero p {
+  font-size: 18px;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.hero button {
+  padding: 8px 36px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
+
+.image {
+  flex: 1 0 550px;
+  background-color: #575757;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .third {
