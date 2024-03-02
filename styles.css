@@ -101,7 +101,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
+  gap: 55px;
   margin-bottom: 60px;
 }
 
@@ -125,7 +125,7 @@ body {
 
 .third {
   background-color: #E5E7EB;
-  padding: 120px 320px;
+  padding: 120px 430px;
 }
 
 .third .quote {
