@@ -181,7 +181,13 @@ body {
   padding: 6px 26px;
 }
 
+/* Footer */
+
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
   background-color: #1F2937;
   color: white;
 }
