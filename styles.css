@@ -145,6 +145,42 @@ body {
   font-weight: bold;
 }
 
+/* Fourth Row */
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  background-color: #3882F6;
+  color: white;
+  padding: 50px 160px;
+  border-radius: 8px;
+  gap: 180px;
+}
+
+.call h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.call p {
+  margin: 0;
+  padding: 0;
+}
+
+.call button {
+  border: 3px solid white;
+  border-radius: 6px;
+  background-color: transparent;
+  color: white;
+  padding: 6px 26px;
+}
+
 .footer {
   background-color: #1F2937;
   color: white;
